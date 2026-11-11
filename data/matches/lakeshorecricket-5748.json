@@ -1,0 +1,198 @@
+{
+ "id": "lakeshorecricket-5748",
+ "matchId": 5748,
+ "clubId": 4063,
+ "league": "LakeshoreCricket",
+ "tournament": "lakeshore",
+ "scorecardUrl": "https://cricclubs.com/LakeshoreCricket/fullScorecard.do?clubId=4063&matchId=5748",
+ "parsedAt": "2026-11-11T06:31:20.483Z",
+ "source": "scorecard",
+ "title": "Score Card PDF",
+ "date": "2026-11-10",
+ "teams": [
+  "Young Stunners",
+  "True Blue Falcons"
+ ],
+ "opponent": "Young Stunners",
+ "result": "True Blue Falcons won by 7 Wickets",
+ "notes": [],
+ "players": [
+  {
+   "name": "Chirag Sethi",
+   "playerId": "chirag-sethi",
+   "batted": true,
+   "bowled": false,
+   "bat": {
+    "pos": 1,
+    "runs": 0,
+    "balls": 2,
+    "fours": 0,
+    "sixes": 0,
+    "notOut": false,
+    "dismissal": "lbw Mohsin I"
+   }
+  },
+  {
+   "name": "Asad Naqvi",
+   "playerId": "asad-naqvi",
+   "batted": true,
+   "bowled": false,
+   "bat": {
+    "pos": 2,
+    "runs": 11,
+    "balls": 15,
+    "fours": 0,
+    "sixes": 0,
+    "notOut": false,
+    "dismissal": "ro Qazah S"
+   }
+  },
+  {
+   "name": "Sadan Amin",
+   "playerId": "sadan-amin",
+   "batted": true,
+   "bowled": false,
+   "bat": {
+    "pos": 3,
+    "runs": 0,
+    "balls": 5,
+    "fours": 0,
+    "sixes": 0,
+    "notOut": false,
+    "dismissal": "ct (Mohit K) Vasu U"
+   }
+  },
+  {
+   "name": "Omkar Bhilare",
+   "playerId": "omkar-bhilare",
+   "batted": true,
+   "bowled": false,
+   "bat": {
+    "pos": 4,
+    "runs": 66,
+    "balls": 28,
+    "fours": 0,
+    "sixes": 7,
+    "notOut": true,
+    "dismissal": ""
+   }
+  },
+  {
+   "name": "Hardik Manchanda",
+   "playerId": "hardik-manchanda",
+   "batted": true,
+   "bowled": false,
+   "bat": {
+    "pos": 5,
+    "runs": 24,
+    "balls": 16,
+    "fours": 0,
+    "sixes": 2,
+    "notOut": true,
+    "dismissal": ""
+   }
+  },
+  {
+   "name": "Rajat Kumar Sinha",
+   "playerId": "rajat-kumar-sinha",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "3",
+    "balls": 18,
+    "maidens": 0,
+    "runs": 19,
+    "wickets": 0,
+    "wides": 5,
+    "noballs": 1,
+    "dots": 0
+   }
+  },
+  {
+   "name": "Alston D'Mello",
+   "playerId": "alston-d-mello",
+   "batted": false,
+   "bowled": false
+  },
+  {
+   "name": "Ayush Aran",
+   "playerId": "ayush-aran",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "2",
+    "balls": 12,
+    "maidens": 0,
+    "runs": 16,
+    "wickets": 1,
+    "wides": 4,
+    "noballs": 0,
+    "dots": 0
+   }
+  },
+  {
+   "name": "Hritik Kumar Advani",
+   "playerId": "hritik-kumar-advani",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "1",
+    "balls": 6,
+    "maidens": 0,
+    "runs": 13,
+    "wickets": 0,
+    "wides": 0,
+    "noballs": 0,
+    "dots": 0
+   }
+  },
+  {
+   "name": "Rana Mulhim Nadeem",
+   "playerId": "rana-mulhim-nadeem",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "2",
+    "balls": 12,
+    "maidens": 0,
+    "runs": 22,
+    "wickets": 1,
+    "wides": 2,
+    "noballs": 0,
+    "dots": 0
+   }
+  },
+  {
+   "name": "Vansh Tyagi",
+   "playerId": "vansh-tyagi",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "2",
+    "balls": 12,
+    "maidens": 0,
+    "runs": 20,
+    "wickets": 0,
+    "wides": 2,
+    "noballs": 0,
+    "dots": 0
+   }
+  },
+  {
+   "name": "Vivek Chauhan",
+   "playerId": "vivek-chauhan",
+   "batted": false,
+   "bowled": true,
+   "bowl": {
+    "overs": "2",
+    "balls": 12,
+    "maidens": 0,
+    "runs": 20,
+    "wickets": 1,
+    "wides": 3,
+    "noballs": 0,
+    "dots": 0
+   }
+  }
+ ]
+}
