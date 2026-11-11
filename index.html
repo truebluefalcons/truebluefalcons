@@ -3,10 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>True Blue Falcons · Season Stats</title>
-  <meta name="description" content="True Blue Falcons season statistics: top run scorers, wicket takers, batting and bowling across Lakeshore and the Mississauga Cricket League.">
+  <title>True Blue Falcons Cricket Club · 2026 Season Stats &amp; Results</title>
+  <meta name="description" content="True Blue Falcons (TBF) cricket club: 2026 season stats, results and leaderboards. Top run scorers, wicket takers, batting and bowling in the Lakeshore and Mississauga Cricket League.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://truebluefalcons.club/">
   <meta name="theme-color" content="#0a1b3f">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Social previews (WhatsApp, Facebook, X, LinkedIn, iMessage) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="True Blue Falcons">
+  <meta property="og:title" content="True Blue Falcons Cricket Club · Season Stats">
+  <meta property="og:description" content="Results, top run scorers and wicket takers for the True Blue Falcons in Lakeshore and the Mississauga Cricket League.">
+  <meta property="og:url" content="https://truebluefalcons.club/">
+  <meta property="og:image" content="https://truebluefalcons.club/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="True Blue Falcons crest and club name">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="True Blue Falcons Cricket Club · Season Stats">
+  <meta name="twitter:description" content="Results, top run scorers and wicket takers for the True Blue Falcons.">
+  <meta name="twitter:image" content="https://truebluefalcons.club/assets/og-image.png">
+
+  <!-- Structured data for Google. scripts/seo.mjs adds the season's matches at deploy time. -->
+  <script type="application/ld+json" id="ld-site">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SportsTeam",
+        "@id": "https://truebluefalcons.club/#team",
+        "name": "True Blue Falcons",
+        "alternateName": ["TBF", "True Blue Falcons Cricket Club", "Blue Falcons"],
+        "sport": "Cricket",
+        "url": "https://truebluefalcons.club/",
+        "logo": "https://truebluefalcons.club/assets/icon-192.png",
+        "image": "https://truebluefalcons.club/assets/og-image.png",
+        "location": { "@type": "Place", "name": "Mississauga, Ontario, Canada" },
+        "memberOf": [
+          { "@type": "SportsOrganization", "name": "Lakeshore" },
+          { "@type": "SportsOrganization", "name": "Mississauga Cricket League" }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://truebluefalcons.club/#website",
+        "name": "True Blue Falcons",
+        "url": "https://truebluefalcons.club/",
+        "inLanguage": "en-CA",
+        "publisher": { "@id": "https://truebluefalcons.club/#team" }
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +71,7 @@
       <div>
         <p class="eyebrow" id="eyebrow">Season</p>
         <h1>True Blue <span>Falcons</span></h1>
-        <p class="sub">Season stats: who's scoring the runs and who's taking the wickets.</p>
+        <p class="sub">Cricket club season stats: who's scoring the runs and who's taking the wickets in Lakeshore and the Mississauga Cricket League.</p>
       </div>
     </div>
     <div class="wrap kpis" id="kpis" aria-live="polite"></div>
@@ -78,6 +130,12 @@
         </div>
       </div>
       <div class="match-list" id="match-list"></div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About True Blue Falcons</h2>
+      <p>True Blue Falcons (TBF) is an amateur cricket club playing in Lakeshore and the Mississauga Cricket League in Ontario, Canada. This page tracks every match the club plays: results, runs, wickets, strike rates and economy rates for each player, updated after each game from the official CricClubs scorecards.</p>
+      <!--SEO:SUMMARY-->
     </section>
   </main>
 

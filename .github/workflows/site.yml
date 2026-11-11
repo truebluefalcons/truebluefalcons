@@ -39,6 +39,8 @@ jobs:
           cp data/*.json _site/data/
           cp -r data/matches _site/data/
           touch _site/.nojekyll
+      - name: Search engine pass (static season summary, sitemap.xml, robots.txt)
+        run: node scripts/seo.mjs _site
       - name: Version script and style URLs
         # GitHub Pages lets browsers cache files for 10 minutes. Stamping every script/style
         # URL (and every module import) with the commit makes a deploy load as one set,
